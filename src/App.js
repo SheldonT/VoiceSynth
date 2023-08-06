@@ -16,6 +16,10 @@ function App() {
 
   const keyContainer = {
     position: "relative",
+    display: "flex",
+    flexDirection: "row",
+    justifyContent: "flex-end",
+    alignItems: "flex-start"
   };
   const synth = new Tone.Synth().toDestination();
   const player = new Tone.Player().toDestination();
@@ -62,15 +66,16 @@ function App() {
   return (
     <div className="App">
         <h1 className="title">Voice Synth</h1>
-        <button className="micButton"
-          onClick={ onMic }
-        >
-          Mic On
-        </button>
+        <div className="micButton">
+          <button
+            onClick={ onMic }>
+            1. Record Sound (1 sec)
+          </button>
+        </div>
 
-
+        <div className="micButton">
         <button
-          className="playBack"
+          
           onClick={async () => {
             try{
               await player.load(audioURL);
@@ -80,10 +85,11 @@ function App() {
             
           }}
           disabled={audioURL === null ? true : false}>
-          PlayBack
+          2. Verify Recording
         </button>
+        </div>
 
-
+        <span className="micButton">3. Rock out!</span>
         <div style={{...keyContainer, left: "-7rem"}}>
           <Key width={whiteKeyWidth} note="C4" sample={audioURL} />
 
