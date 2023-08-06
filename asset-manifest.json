@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/VoiceSynth/static/css/main.775d9c53.css",
+    "main.js": "/VoiceSynth/static/js/main.82a5bfd1.js",
+    "static/js/787.61069322.chunk.js": "/VoiceSynth/static/js/787.61069322.chunk.js",
+    "index.html": "/VoiceSynth/index.html",
+    "main.775d9c53.css.map": "/VoiceSynth/static/css/main.775d9c53.css.map",
+    "main.82a5bfd1.js.map": "/VoiceSynth/static/js/main.82a5bfd1.js.map",
+    "787.61069322.chunk.js.map": "/VoiceSynth/static/js/787.61069322.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.775d9c53.css",
+    "static/js/main.82a5bfd1.js"
+  ]
+}
