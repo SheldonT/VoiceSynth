@@ -1,4 +1,4 @@
-import {useEffect, useState} from "react";
+import {useState} from "react";
 import './App.css';
 import Key from "./Key"
 import * as Tone from "tone";
