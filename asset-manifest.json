@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/VoiceSynth/static/css/main.8d3c11df.css",
-    "main.js": "/VoiceSynth/static/js/main.82a5bfd1.js",
+    "main.js": "/VoiceSynth/static/js/main.2d516cf9.js",
     "static/js/787.61069322.chunk.js": "/VoiceSynth/static/js/787.61069322.chunk.js",
     "index.html": "/VoiceSynth/index.html",
     "main.8d3c11df.css.map": "/VoiceSynth/static/css/main.8d3c11df.css.map",
-    "main.82a5bfd1.js.map": "/VoiceSynth/static/js/main.82a5bfd1.js.map",
+    "main.2d516cf9.js.map": "/VoiceSynth/static/js/main.2d516cf9.js.map",
     "787.61069322.chunk.js.map": "/VoiceSynth/static/js/787.61069322.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8d3c11df.css",
-    "static/js/main.82a5bfd1.js"
+    "static/js/main.2d516cf9.js"
   ]
 }
