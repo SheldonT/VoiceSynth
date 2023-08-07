@@ -50,8 +50,14 @@ export default function Key({color, width, index, note, sample, offSet}) {
     return(
         <div style={{...whiteKeys, left: offSet ? `${offSet}rem` : "0"}}
             onMouseDown={ () => playTone() }
+            onTouchStart={ () => playTone() }
+
             onMouseUp={ () => endTone() }
+            onTouchEnd={ () => endTone() }
+
             onMouseLeave={ () => endTone() }
+            onTouchCancel={ () => endTone() }
+            
             onMouseEnter={(e) => {if (e.buttons === 1) playTone()}}>
         </div>
     ) 
